@@ -160,6 +160,19 @@
 			"status":""
 		},
 		{
+			"coauthors" : "with Darren Bernard, Nicole Cade, and Elizabeth Connors",
+			"title": "Hedonic motivations and managers’ information choices",
+			"abstract" : "Using direct measures of information acquisition from a business intelligence provider, we examine the actions managers take to learn about their business. We first provide descriptive evidence that managers of small businesses adopt the business intelligence service due to business complexity and growth expectations, and, after adoption, managers become heavy consumers of financial and related nonfinancial metrics. We then show that, despite offsetting economic motivations, the hedonic motivations of managers appear to significantly affect their information diet—i.e., managers consume information, at least in part, based on their expectation of how the information will make them feel. These findings highlight a significant friction for managers’ information processing and inform the design of pervasive data products such as dashboards.",
+			"links":[
+				{
+					"href":"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3752507",
+					"label":"ssrn"
+				},
+			],
+			"extra":"",
+			"status":""
+		},
+		{
 			"title":"Update Frequency and Funder Involvement in Reward Crowdfunding Markets",
 			"abstract":"I study the role of product development updates and funder involvement in improving reward crowdfunding outcomes. Reward crowdfunding is a growing source of funding for entrepreneurs with limited access to traditional financing. The limited regulation in reward crowdfunding markets, however, leaves it up to the entrepreneur and the funders to solve their agency problems. Using data from one of the largest reward crowdfunding platforms, I find that entrepreneurs who provide less frequent voluntary updates experience more involvement by funders in the product development process. The entrepreneur responds to this heightened involvement by adjusting their announcement length but not their update frequency. Finally, I find that funders who are responsive in their product development involvement improve project outcomes. Taken together, my results support that voluntary updating and funder involvement can work together to resolve agency frictions in reward crowdfunding markets.",
 			"links":[
@@ -282,6 +295,7 @@
 			"year":"2023",
 			"schools":[
 				{
+					"schoolName":"Arrowstreet Capital",
 					"schoolName":"Cornell - CETAFE Conference"
 				}
 			]
@@ -501,6 +515,9 @@
 		},
 		{
 			"name":"The Accounting Review"
+		},
+		{
+			"name":"Review of Accounting Studies"
 		},
 		{
 			"name":"Contemporary Accounting Research"
