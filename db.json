@@ -295,8 +295,10 @@
 			"year":"2023",
 			"schools":[
 				{
-					"schoolName":"Arrowstreet Capital",
 					"schoolName":"Cornell - CETAFE Conference"
+				},
+				{
+					"schoolName":"Arrowstreet Capital"
 				}
 			]
 		},
