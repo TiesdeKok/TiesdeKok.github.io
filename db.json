@@ -435,7 +435,16 @@
 			"date":"2023",
 			"title":"Going beyond ChatGPT: an introduction to prompt engineering and LLMs (90 minute tutorial)",
 			"location":"PyData Seattle 2023 - Microsoft Campus",
-            "links" : []
+            		"links" : [
+				{
+				    "href" : "https://github.com/TiesdeKok/pydata_2023",
+				    "label" : "Github"
+				},
+				{
+				    "href" : "https://youtu.be/CG3b6D3XNOE",
+				    "label" : "Recording"
+				}
+			]
 		},
 		{
 			"date":"2022",
