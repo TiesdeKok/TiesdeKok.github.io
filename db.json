@@ -2,11 +2,11 @@
 	"basics":{
 		"name":"Ties de Kok",
 		"label":"Curriculum Vitae",
-		"currentAffiliation":"Foster School of Business, University of Washington",
-		"addressOffice":"PACCAR Hall, Box 353226",
-		"addressDetails":"Seattle, WA 98195",
+		"currentAffiliation":"Arrowstreet Capital",
+		"addressOffice":"",
+		"addressDetails":"Boston, MA",
 		"email":"tdekok@uw.edu",
-		"phone":"206 685 2252",
+		"phone":"",
 		"website":"https://www.tiesdekok.com",
 		"profiles":[
 			{
@@ -21,10 +21,19 @@
 	},
 	"appointments":[
 		{
+			"school":"Arrowstreet Capital",
+			"position":"Quant Researcher",
+			"startDate":"2023",
+			"endDate":"present",
+			"details":[
+				
+			]
+		},
+		{
 			"school":"University of Washington, Foster School of Business",
 			"position":"Assistant Professor",
 			"startDate":"2019",
-			"endDate":"present",
+			"endDate":"2023",
 			"details":[
 				
 			]
@@ -129,7 +138,7 @@
 		{
 			"coauthors" : "Solo-authored",
 			"title": "Generative LLMs and Textual Analysis in Accounting: (Chat)GPT as Research Assistant?",
-			"abstract" : "Generative Large Language Models (GLLMs), such as the ChatGPT and GPT-4 models by OpenAI, are emerging as powerful tools for textual analysis tasks in accounting research. GLLMs can solve any textual analysis task solvable using non-generative methods, as well as tasks previously only solvable using human coding. This paper highlights the applications of GLLMs for accounting research and compares it to existing textual analysis methods. I also provide a framework for researchers to effectively utilize GLLMs in their work, addressing key considerations such as model selection, prompt engineering, and construct validity. Furthermore, I highlight the importance of addressing bias, replicability, data privacy, and attributability concerns when employing GLLMs. Finally, I explore current GLLM developments and provide practical guidance and code examples in the appendices. Taken together, this paper equips researchers with the necessary knowledge and tools to harness the potential of GLLMs and editors and reviewers with the knowledge to better evaluate papers who use the GLLM approach.",
+			"abstract" : "Generative Large Language Models (GLLMs), such as the ChatGPT and GPT-4 models by OpenAI, are emerging as powerful tools for textual analysis tasks in accounting research. GLLMs can solve any textual analysis task solvable using non-generative methods, as well as tasks previously only solvable using human coding. This paper highlights the applications of GLLMs for accounting research and compares them to existing textual analysis methods. I also provide a framework for researchers to effectively utilize GLLMs in their work, addressing key considerations such as model selection, prompt engineering, and construct validity. In a case study, I demonstrate the capabilities of GLLMs by detecting non-answers in earnings conference calls, a traditionally challenging task to automate with high accuracy. I also demonstrate the flexibility of GLLMs by measuring various additional non-answer dimensions, such as the managers' justification and sentiment spin, and studying them during the COVID-19 pandemic. The non-answer dataset, and code examples, are made available through a companion website. Finally, I discuss the importance of addressing bias, replicability, and data privacy concerns while using GLLMs. Taken together, this paper equips researchers with the necessary knowledge and tools to harness the potential of GLLMs and editors and reviewers with the knowledge to better evaluate papers that use GLLM approaches.",
 			"links":[
 				{
 					"href":"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4429658",
@@ -145,7 +154,7 @@
 		},
 		{
 			"coauthors":"with Beth Blankespoor, Darren Bernard, and Sara Toynbee",
-			"title":"Confused Readers: A Modular Approach for Measuring Business Complexity",
+			"title":"A Modular Measure of Business Complexity",
 			"abstract":"Business complexity is an important informational friction but challenging to measure. We use a GPT large language model fine-tuned on narrative disclosures and inline XBRL tags to measure business complexity from a user perspective. Our measure negatively correlates with the speed of capital market price adjustments to financial reports and positively correlates with filing delays even after controlling for existing complexity measures. We exploit the modularity offered by the measure to construct complexity scores for different transaction categories, such as debt, business combinations, and compensation. Using this modular measure, we find that more complex transactions receive more regulatory scrutiny, correlate with greater cash holdings, and predict worse future performance. Overall, our study reinforces complexity’s role as a friction to decision-making and provides a richer and more flexible measure of complexity for future research.",
 			"links":[
 				{
@@ -219,7 +228,7 @@
 			"schools":[
 				{
 					"schoolName":"University of Washington",
-					"period":"2021 - present",
+					"period":"2021 - 2023",
 					"notes":[
 						{
 							"note":"ACCTG 320 - Case-based class on developing the analytical mindset and analytical skillset for accounting and business professionals."
@@ -234,7 +243,7 @@
 			"schools":[
 				{
 					"schoolName":"University of Washington",
-					"period":"2018, 2020 - present (annual)",
+					"period":"2018, 2020 - 2023",
 					"notes":[
 						{
 							"note":"Github page: <a href='https://github.com/TiesdeKok/acctg-579B' target='_blank'>https://github.com/TiesdeKok/acctg-579B</a>"
@@ -243,7 +252,7 @@
 				},
 				{
 					"schoolName":"Limperg Institute",
-					"period":"2019 - present (annual)",
+					"period":"2019 - 2022",
 					"notes":[
 						{
 							"note":"Github page: <a href='https://github.com/TiesdeKok/limperg_python' target='_blank'>https://github.com/TiesdeKok/limperg_python</a>"
