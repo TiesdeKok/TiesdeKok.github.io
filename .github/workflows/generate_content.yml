@@ -41,19 +41,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-
-        ## Optional: copy your vitea PDF file to a remote host (e.g., company profile). 
-
-      - name: move CV to new location for easier transfer
-        run: cp public/Vitae.pdf Vitae.pdf
-
-      - name: copy resume PDF to remote host
-        uses: appleboy/scp-action@master
-        with:
-          host: ${{ secrets.CV_LOC_HOST }}
-          username: ${{ secrets.CV_LOC_USERNAME }}
-          password: ${{ secrets.CV_LOC_PW }}
-          port: ${{ secrets.CV_LOC_PORT }}
-          source: "Vitae.pdf"
-          target: ${{ secrets.CV_LOC_FOLDER }}
-          tar_tmp_path : ${{ secrets.CV_LOC_FOLDER }}
