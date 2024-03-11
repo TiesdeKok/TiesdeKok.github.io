@@ -137,15 +137,15 @@
 	"workingPapers":[
 		{
 			"coauthors" : "Solo-authored",
-			"title": "Generative LLMs and Textual Analysis in Accounting: (Chat)GPT as Research Assistant?",
-			"abstract" : "Generative Large Language Models (GLLMs), such as the ChatGPT and GPT-4 models by OpenAI, are emerging as powerful tools for textual analysis tasks in accounting research. GLLMs can solve any textual analysis task solvable using non-generative methods, as well as tasks previously only solvable using human coding. This paper highlights the applications of GLLMs for accounting research and compares them to existing textual analysis methods. I also provide a framework for researchers to effectively utilize GLLMs in their work, addressing key considerations such as model selection, prompt engineering, and construct validity. In a case study, I demonstrate the capabilities of GLLMs by detecting non-answers in earnings conference calls, a traditionally challenging task to automate with high accuracy. I also demonstrate the flexibility of GLLMs by measuring various additional non-answer dimensions, such as the managers' justification and sentiment spin, and studying them during the COVID-19 pandemic. The non-answer dataset, and code examples, are made available through a companion website. Finally, I discuss the importance of addressing bias, replicability, and data privacy concerns while using GLLMs. Taken together, this paper equips researchers with the necessary knowledge and tools to harness the potential of GLLMs and editors and reviewers with the knowledge to better evaluate papers that use GLLM approaches.",
+			"title": "ChatGPT for Textual Analysis? How to use Generative LLMs in Accounting Research",
+			"abstract" : "Generative Large Language Models (GLLMs), such as ChatGPT and GPT-4 by OpenAI, are emerging as powerful tools for textual analysis tasks in accounting research. GLLMs can solve any textual analysis task solvable using non-generative methods, as well as tasks previously only solvable using human coding. While new and powerful, GLLMs also come with limitations and present new challenges that require care and due diligence. This paper highlights the applications of GLLMs for accounting research and compares them to existing methods. It also provides a framework on how to effectively use GLLMs by addressing key considerations such as model selection, prompt engineering, and ensuring construct validity. In a case study, I demonstrate the capabilities of GLLMs by detecting non-answers in earnings conference calls, a traditionally challenging task to automate. The new GPT method achieves an accuracy of 96% and reduces the non-answer error rate by 70% relative to the existing Gow et al. (2021) method. Finally, I discuss the importance of addressing bias, replicability, and data sharing concerns when using GLLMs. Taken together, this paper provides researchers, reviewers, and editors with the knowledge and tools to effectively use and evaluate GLLMs for academic research.",
 			"links":[
 				{
 					"href":"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4429658",
 					"label":"ssrn"
 				},
 				{
-					"href":"https://github.com/TiesdeKok/gllm_companion",
+					"href":"https://github.com/TiesdeKok/chatgpt_paper",
 					"label":"code"
 				}
 			],
