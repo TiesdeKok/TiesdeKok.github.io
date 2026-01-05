@@ -5,7 +5,7 @@ This is my spin on a simple website & CV generator based on the following needs:
 - Generate a website and a CV based on a single JSON file.
 - Keep things as simple as possible. The only external dependency is Jinja2. The rest is pure Python and HTML/CSS.
 - Utilize GitHub Actions to automate generation and deployment, including a PDF version of the CV.
-- Be simple enough that I can remember how to use it for the years to come (😉).
+- Be simple enough that I can remember how to use it for the years to come.
 
 ## Want to use my repository as a template for your own website?
 
