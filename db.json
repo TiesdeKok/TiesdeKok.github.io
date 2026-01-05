@@ -95,6 +95,59 @@
 		}
 	],
 	"publishedPapers":[
+		{	
+			"coauthors":"with Beth Blankespoor, Darren Bernard, and Sara Toynbee",
+			"title":"Using GPT to measure business complexity",
+			"abstract":"Business complexity involves important tradeoffs for managers and investors, but empirical evidence is limited by measurement issues. We construct and validate a measure of business complexity using a GPT model fine-tuned on narrative disclosures and inline XBRL tags. We first show that our measure is associated with slower price formation in capital markets, consistent with complexity increasing processing costs. Next, we apply our measure to study the complexity of debt, an economically important topic that encompasses a wide range of features. The results show that non-standard debt features such as call and convertibility provisions underlie debt complexity. We also find that debt complexity correlates with more persistent interest expense and better performance when lending conditions worsen, suggesting it is in part an adaptive response to manage financial risk. Overall, our study underscores the tradeoffs of business complexity and provides a flexible measure of complexity for future research.",
+			"journal": "The Accounting Review",
+			"year": "2026",
+			"links":[
+				{
+					"href":"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4480309",
+					"label":"ssrn"
+				} 
+			]
+		},
+		{
+			"coauthors" : "with Darren Bernard, Nicole Cade, and Elizabeth Connors",
+			"title": "Descriptive evidence on small business managers' information choices",
+			"journal": "Review of Accounting Studies",
+			"year": "2025"
+			"abstract" : "We use direct measures of information acquisition from a business intelligence service to provide descriptive evidence on small business managers’ information choices. We show that managers are heavy consumers of email pushes and dashboards but exhibit substantial time-series and cross-sectional variation in use. The information managers acquire largely facilitates general performance monitoring; product, inventory, and staff management tools are also widely used. Both economic and psychological factors seem to motivate managers’ information choices. Cross-sectional analyses provide support for economic motivators such as business complexity and within-store analyses raise the possibility that hedonic motivations matter—i.e., managers appear to consume information, at least in part, based on their expectation of how the information will make them feel. Still, on net, information acquisition appears productive, as greater acquisition predicts higher future sales and fewer future stockouts. Overall, our study provides micro-level evidence on managerial information acquisition, which is important in part to inform the design and use of increasingly pervasive data products such as dashboards.",
+			"links":[
+				{
+					"href": "https://link.springer.com/article/10.1007/s11142-025-09885-5",
+					"label": "paper"
+				},
+				{
+					"href":"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3752507",
+					"label":"ssrn"
+				}
+			],
+			"extra":"",
+			"status":""
+		},
+		{
+			"coauthors" : "Solo-authored",
+			"title": "ChatGPT for Textual Analysis? How to use Generative LLMs in Accounting Research",
+			"journal": "Management Science",
+			"year": "2025",
+			"abstract" : "Generative Large Language Models (GLLMs), such as ChatGPT and GPT-4 by OpenAI, are emerging as powerful tools for textual analysis tasks in accounting research. GLLMs can solve any textual analysis task solvable using non-generative methods, as well as tasks previously only solvable using human coding. While new and powerful, GLLMs also come with limitations and present new challenges that require care and due diligence. This paper highlights the applications of GLLMs for accounting research and compares them to existing methods. It also provides a framework on how to effectively use GLLMs by addressing key considerations such as model selection, prompt engineering, and ensuring construct validity. In a case study, I demonstrate the capabilities of GLLMs by detecting non-answers in earnings conference calls, a traditionally challenging task to automate. The new GPT method achieves an accuracy of 96% and reduces the non-answer error rate by 70% relative to the existing Gow et al. (2021) method. Finally, I discuss the importance of addressing bias, replicability, and data sharing concerns when using GLLMs. Taken together, this paper provides researchers, reviewers, and editors with the knowledge and tools to effectively use and evaluate GLLMs for academic research.",
+			"links":[
+				{
+					"href": "https://pubsonline.informs.org/doi/10.1287/mnsc.2023.03253",
+					"label": "paper"
+				},
+				{
+					"href":"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4429658",
+					"label":"ssrn"
+				},
+				{
+					"href":"https://github.com/TiesdeKok/chatgpt_paper",
+					"label":"code"
+				}
+			]
+		},
 		{
 			"coauthors":"with Ed deHaan, Dawn Matsumoto, and Edgar Rodriguez-Vazquez",
 			"year":"2023",
@@ -120,7 +173,7 @@
 			"coauthors":"with Arnt Verriest and Jan Bouwens",
 			"year":"2019",
 			"title":"The Prevalence and Validity of EBITDA as a Performance Measure",
-			"journal":"Accounting Auditing Control",
+			"journal":"Accounting Auditing Control",	
 			"links":[
 				{
 					"href":"https://www.cairn.info/revue-comptabilite-controle-audit-2019-1-page-55.htm?ref=doi",
@@ -136,51 +189,13 @@
 	],
 	"workingPapers":[
 		{
-			"coauthors" : "Solo-authored",
-			"title": "ChatGPT for Textual Analysis? How to use Generative LLMs in Accounting Research",
-			"abstract" : "Generative Large Language Models (GLLMs), such as ChatGPT and GPT-4 by OpenAI, are emerging as powerful tools for textual analysis tasks in accounting research. GLLMs can solve any textual analysis task solvable using non-generative methods, as well as tasks previously only solvable using human coding. While new and powerful, GLLMs also come with limitations and present new challenges that require care and due diligence. This paper highlights the applications of GLLMs for accounting research and compares them to existing methods. It also provides a framework on how to effectively use GLLMs by addressing key considerations such as model selection, prompt engineering, and ensuring construct validity. In a case study, I demonstrate the capabilities of GLLMs by detecting non-answers in earnings conference calls, a traditionally challenging task to automate. The new GPT method achieves an accuracy of 96% and reduces the non-answer error rate by 70% relative to the existing Gow et al. (2021) method. Finally, I discuss the importance of addressing bias, replicability, and data sharing concerns when using GLLMs. Taken together, this paper provides researchers, reviewers, and editors with the knowledge and tools to effectively use and evaluate GLLMs for academic research.",
-			"links":[
-				{
-					"href":"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4429658",
-					"label":"ssrn"
-				},
-				{
-					"href":"https://github.com/TiesdeKok/chatgpt_paper",
-					"label":"code"
-				}
-			],
-			"extra":"",
-			"status":""
-		},
-		{
-			"coauthors":"with Beth Blankespoor, Darren Bernard, and Sara Toynbee",
-			"title":"A Modular Measure of Business Complexity",
-			"abstract":"Business complexity is an important informational friction but challenging to measure. We use a GPT large language model fine-tuned on narrative disclosures and inline XBRL tags to measure business complexity from a user perspective. Our measure negatively correlates with the speed of capital market price adjustments to financial reports and positively correlates with filing delays even after controlling for existing complexity measures. We exploit the modularity offered by the measure to construct complexity scores for different transaction categories, such as debt, business combinations, and compensation. Using this modular measure, we find that more complex transactions receive more regulatory scrutiny, correlate with greater cash holdings, and predict worse future performance. Overall, our study reinforces complexity’s role as a friction to decision-making and provides a richer and more flexible measure of complexity for future research.",
-			"links":[
-				{
-					"href":"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4480309",
-					"label":"ssrn"
-				} 
-			],
-			"extra":"",
-			"status":""
-		},
-		{
 			"coauthors":"with Beth Blankespoor and Xue Li",
-			"title":"Corporate Engagement in Public Discourse ",
-			"abstract":"",
-            "links":[],
-			"extra":"",
-			"status":""
-		},
-		{
-			"coauthors" : "with Darren Bernard, Nicole Cade, and Elizabeth Connors",
-			"title": "Hedonic motivations and managers’ information choices",
-			"abstract" : "Using direct measures of information acquisition from a business intelligence provider, we examine the actions managers take to learn about their business. We first provide descriptive evidence that managers of small businesses adopt the business intelligence service due to business complexity and growth expectations, and, after adoption, managers become heavy consumers of financial and related nonfinancial metrics. We then show that, despite offsetting economic motivations, the hedonic motivations of managers appear to significantly affect their information diet—i.e., managers consume information, at least in part, based on their expectation of how the information will make them feel. These findings highlight a significant friction for managers’ information processing and inform the design of pervasive data products such as dashboards.",
-			"links":[
+			"title":"Tapping into Virality: Corporate Engagement in Public Discourse",
+			"abstract":"With social media platforms such as Twitter, firms can easily engage with public discourse, i.e., public conversations involving many stakeholders and topics ranging from #TacoTuesday to #StopAsianHate. We ask whether and how investors respond to corporate participation in public discourse. Using various measures of investor attention (Twitter cashtag mentions (e.g., $CRM), Reddit mentions, retail trading, and total trading volume), we find greater investor attention when firms engage with active public discourse with messages that garner high online user impressions. We also find some evidence that when firms engage, they are more likely to face online scrutiny and more extreme market outcomes, especially when engaging with polarizing topics. Finally, when we consider investor preference alignment, we find that ESG fund ownership increases after firms engage meaningfully with environmental trending topics, even controlling for general environmental tweets. These findings broaden our understanding of firm communication and investor response to firms speaking out.",
+            "links":[
 				{
-					"href":"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3752507",
-					"label":"ssrn"
+					"href": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4785512",
+					"label": "ssrn"
 				}
 			],
 			"extra":"",
