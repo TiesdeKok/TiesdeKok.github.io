@@ -1,4 +1,4 @@
-# My simple website & CV generator
+# Simple website & CV generator
 
 This is my spin on a simple website & CV generator based on the following needs:
 
